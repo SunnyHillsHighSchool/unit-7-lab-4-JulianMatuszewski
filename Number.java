@@ -11,15 +11,15 @@
 //header for Number class
 public class Number {
 //private instance variable (must be an Integer)
-private int number;
+private Integer number;
 //constructor
-public Number (int i) {number = i;}
+public Number (Integer i) {number = i;}
 
 //getter method
 public int get() {return number;}
 
 //setter method
-public void set(int i) {number = i;}
+public void set(Integer i) {number = i;}
 
 //isOdd method
 public boolean isOdd() {
